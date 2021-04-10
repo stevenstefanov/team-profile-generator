@@ -38,7 +38,7 @@ function createHTML(content){
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">${id}</li>
-        <li class="list-group-item">${email}</li>
+        <li class="list-group-item"> Email: <a href="mailto:${email}">${email}</a></li>
         <li class="list-group-item">${info}</li>
       </ul>
     </div>

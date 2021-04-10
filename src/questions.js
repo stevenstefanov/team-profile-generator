@@ -2,17 +2,17 @@
 const initialQuestions = [
     {
         type: "input",
-        name: "manager_name",
+        name: "employee_name",
         message: "What is the first manager's name?"
     },
     {
         type: "input",
-        name: "manager_id",
+        name: "employee_id",
         message: "What is the manager's ID?"
     },
     {
         type: "input",
-        name: "manager_email",
+        name: "employee_email",
         message: "What is the manager's email address?"
     }
 ]
@@ -46,7 +46,18 @@ const questions = [
     }
 ];
 
+// 
+const addAnotherEmployee = [
+    {
+        type: "confirm",
+        name: "addNew",
+        message: "Would you like to add another employee?",
+        default: true
+    }
+]
+
 module.exports = {
     initialQuestions,
-    questions
+    questions,
+    addAnotherEmployee
 }

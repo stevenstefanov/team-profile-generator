@@ -10,8 +10,7 @@ main {
 }
 .navbar {
     justify-content: center;
-    background-color: var(--bs-red);
-    color: white;
+    color: rgb(49, 115, 201);
 }
 .card {
     box-shadow: 1vh 1vh 1vh grey;
