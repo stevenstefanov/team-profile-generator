@@ -24,7 +24,6 @@ const questions = [
         name: "employee_role",
         message: "What is the employee's role?",
         choices: [
-            "Manager",
             "Engineer",
             "Intern"
         ]
