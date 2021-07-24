@@ -41,7 +41,7 @@ async function initialManager(){
     employeeData.push(newManager);
 }
 
-// Function for all otger employeer
+// Function for all other employeer
 async function askEmployees(){
     console.log("Please fill in the following information to add more employees...");
     const newEmployee = await inquirer.prompt(questions.questions);
