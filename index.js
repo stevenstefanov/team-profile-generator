@@ -1,4 +1,4 @@
-// Importing classes
+// Import classes
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -12,7 +12,7 @@ const intQuestion = require("./src/intern-question");
 const mgrQuestion = require("./src/manager-question");
 const template = require("./src/template");
 
-
+// Define variables
 var employeeObjects = [];
 var employeeData = [];
 var employeeCards = [];

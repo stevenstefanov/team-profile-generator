@@ -17,7 +17,7 @@ const initialQuestions = [
     }
 ]
 
-// Define all other questions
+// General employee questions
 const questions = [
     {
         type: "list",
@@ -45,7 +45,7 @@ const questions = [
     }
 ];
 
-// 
+// Question to add additional employrr
 const addAnotherEmployee = [
     {
         type: "confirm",

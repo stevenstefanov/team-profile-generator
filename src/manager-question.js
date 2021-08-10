@@ -1,3 +1,4 @@
+// Question only for the manager scenario
 module.exports = [
   {
     type: "input",

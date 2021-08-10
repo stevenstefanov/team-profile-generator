@@ -1,3 +1,4 @@
+// Question only for the intern scenario
 module.exports = [
   {
     type: "input",
